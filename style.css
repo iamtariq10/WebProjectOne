@@ -300,8 +300,11 @@ i:hover{
 
 
 @media only screen and (max-width:320px)
+
 {
-    
+    body{
+        overflow: hidden;
+    }
     .navigation ul li {
         width: 394px;
         display: block;
