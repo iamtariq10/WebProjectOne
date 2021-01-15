@@ -1,5 +1,37 @@
-@media only screen and (max-width:9px)
+@media (max-width:950px)
 {
+
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.5rem;
+        flex-wrap: wrap;
+        margin-left: 12rem;
+    }
+    .head-logo {
+        margin-left: 20rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .showcase p {
+        padding: 0px 36px;
+        font-size: 1.3rem;
+        margin-top: -3px;
+    }
+
+    .btn {
+    background-color: rgb(240, 121, 10);
+    border: 0;
+    padding: 17px 17px;
+    color: white;
+    box-shadow: 2px 4px 3px black;
+    margin-left: 26rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+    border-radius: 5px;
+}
+
 
 
 

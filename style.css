@@ -299,7 +299,7 @@ i:hover{
 }
 
 
-@media only screen and (max-width:320px)
+@media (min-width:200px) and (max-width:330px)
 
 {
     body{
@@ -449,12 +449,12 @@ i {
 }
 .boxes {
     border: 2px solid white;
-    padding: 50px 50px;
+    padding: 50px 12px;
     margin: 0rem;
     display: inline;
     background-color: rgb(255, 124, 2);
     color: white;
-    min-width: 73%;
+    min-width: 100%;
 }
     .navigation ul a{
         width: 400px;
