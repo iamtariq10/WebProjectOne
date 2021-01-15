@@ -5,6 +5,8 @@ body{
     box-sizing: border-box;
     background-color: rgb(245, 228, 196);
     /* line-height: 30px; */
+    
+    
 }
 
 /* HEADER */
@@ -113,8 +115,7 @@ header{
 }
 
 .container{
-    width: 80%;
-    margin: auto;
+  
     overflow: hidden;
 }
 
@@ -298,27 +299,160 @@ i:hover{
 }
 
 
-@media (min-width:300px) and (max-width:500px)
+@media only screen and (max-width:320px)
 {
-    .navigation ul li{
-        width: 600px;
-        display:block;
+    
+    .navigation ul li {
+        width: 394px;
+        display: block;
         position: relative;
-        right: 30rem;
-        
+        right: 29.5rem;
         border-radius: 0;
         text-align: center;
-        
-        
-        
     }
-    .btn{
+    .content h1{
+        margin-top: 4rem;
+    }
+    
+    .content p {
+        font-size: 14px;
+        padding: 2px 7% 0 8%;
+    }
+    .showcase h1 {
+        font-size: 2.6rem;
+        position: relative;
+        right: 0rem;
+    }
+    .head-logo h1 {
+        margin-left: -4rem;
+        margin-top: 1.6rem;
+        font-size: 2rem;
+    }
+    .head-logo img {
+        height: 1.3rem;
+        width: 1.3rem;
+        border: 1px solid white;
+        padding: 6px;
+        display: inline;
+        margin-top: 68px;
+        margin-right: 1rem;
+    }
+    .head-logo img {
+        height: 1.3rem;
+        width: 1.3rem;
+        border: 1px solid white;
+        padding: 6px;
+        display: inline;
+        margin: 0;
+        margin-right: 1rem;
+        position: relative;
+        top: 70px;
+        left: 57px;
+        margin: 0px 0 10px 0;
+    }
+    navigation ul li, a {
+        text-decoration: none;
+        list-style: none;
+        padding: 11px;
+        color: white;
+        transition-property: hover;
+        font-size: 13px;
+        border-radius: 2px;
+    }
+    .btn {
         margin: auto;
-        padding:8px;
+        padding: 8px;
         border-radius: 0;
         margin-bottom: 30px;
-        margin-left: 12rem;
+        margin-left: 7.8rem;
+        font-size: 8px;
     }
+    .news-flex input[type=email] {
+        font-size: 17px;
+        margin-left: 62PX;
+        padding: 10px;
+    }
+
+    
+    
+
+    .news-flex h2 {
+        margin: auto;
+        width: 138%;
+        float: left;
+        padding: 10px 23px;
+        margin-left: 1rem;
+        font-size: 28px;
+    }
+.news-flex {
+    display: inline-block;
+    width: 50px;
+    height: 244px;
+}
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(61, 56, 56);
+    color: white;
+    height: 280px;
+}
+.news-flex input {
+    border: none;
+    padding: 15px 15px;
+    margin: 9px;
+    margin-left: 122px;
+}
+
+footer {
+    background: rgb(61, 56, 56);
+    text-align: center;
+    color: wheat;
+    margin: auto;
+    height: 401px;
+    padding: 20px;
+}
+i {
+    color: white;
+    padding: 9px;
+    border: 2px solid white;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0px 0px 8px rgb(226, 90, 0);
+}
+
+.boxes img {
+    width: 42px;
+}
+footer h3, h5 {
+    margin-left: 1rem;
+    text-shadow: 0px 0px 10px black;
+}
+.fa-lg {
+    font-size: 3.33333em;
+    line-height: 23px;
+    vertical-align: 28px;
+}
+i {
+    color: white;
+    padding: 9px;
+    border: 2px solid white;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0px 0px 8px rgb(226, 90, 0);
+}
+.boxes {
+    border: 2px solid white;
+    padding: 50px 50px;
+    margin: 0rem;
+    display: inline;
+    background-color: rgb(255, 124, 2);
+    color: white;
+    min-width: 73%;
+}
     .navigation ul a{
         width: 400px;
         border-radius: 0;
@@ -330,8 +464,9 @@ i:hover{
         width: 50px;
         height: 150px;
     }
-    .news-flex input[type=email]{
-        margin-left: 5rem;
+    .news-flex input[type=email] {
+        margin-left: 2.48rem;
+
     }
    
    
